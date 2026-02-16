@@ -1,0 +1,1048 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "commit_changes",
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "isExtraImport": true,
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "push_to_remote",
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "isExtraImport": true,
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "init_repo",
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "isExtraImport": true,
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "get_repo_info",
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "isExtraImport": true,
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "search_topic",
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "isExtraImport": true,
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "format_search_results",
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "isExtraImport": true,
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "extract_sources",
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "isExtraImport": true,
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_openai",
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "isExtraImport": true,
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_claude",
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "isExtraImport": true,
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "extract_lesson_outline",
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "isExtraImport": true,
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_claude",
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "isExtraImport": true,
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "format_research_synthesis_prompt",
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "isExtraImport": true,
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "format_synthesis_prompt",
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "isExtraImport": true,
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "format_lecture_prompt",
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "isExtraImport": true,
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "save_state",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "check_resume_capability",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "load_state",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "load_existing_lessons",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "save_state",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "load_existing_lessons",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "save_state",
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "isExtraImport": true,
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "Anthropic",
+        "importPath": "anthropic",
+        "description": "anthropic",
+        "isExtraImport": true,
+        "detail": "anthropic",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TavilyClient",
+        "importPath": "tavily",
+        "description": "tavily",
+        "isExtraImport": true,
+        "detail": "tavily",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "setup_node",
+        "importPath": "src.nodes",
+        "description": "src.nodes",
+        "isExtraImport": true,
+        "detail": "src.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "research_node",
+        "importPath": "src.nodes",
+        "description": "src.nodes",
+        "isExtraImport": true,
+        "detail": "src.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "synthesis_node",
+        "importPath": "src.nodes",
+        "description": "src.nodes",
+        "isExtraImport": true,
+        "detail": "src.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "writing_node",
+        "importPath": "src.nodes",
+        "description": "src.nodes",
+        "isExtraImport": true,
+        "detail": "src.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "publish_node",
+        "importPath": "src.nodes",
+        "description": "src.nodes",
+        "isExtraImport": true,
+        "detail": "src.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "run_agent",
+        "importPath": "src.graph",
+        "description": "src.graph",
+        "isExtraImport": true,
+        "detail": "src.graph",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"vegapunk-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"vegapunk-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"vegapunk-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"vegapunk-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"vegapunk-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "publish_node",
+        "kind": 2,
+        "importPath": "src.nodes.publish_node",
+        "description": "src.nodes.publish_node",
+        "peekOfCode": "def publish_node(state: AgentState) -> dict:\n    \"\"\"\n    Write README and commit to git.\n    Note: Lesson files are already written by writing_node.\n    This step creates the README and commits everything.\n    Args:\n        state: Current agent state\n    Returns:\n        Dictionary with github_repo_url update\n    \"\"\"",
+        "detail": "src.nodes.publish_node",
+        "documentation": {}
+    },
+    {
+        "label": "generate_readme",
+        "kind": 2,
+        "importPath": "src.nodes.publish_node",
+        "description": "src.nodes.publish_node",
+        "peekOfCode": "def generate_readme(topic: str, target_audience: str, lessons: dict) -> str:\n    \"\"\"Generate README content for the course.\"\"\"\n    lesson_list = []\n    for i, lesson_key in enumerate(sorted(lessons.keys()), 1):\n        # Extract title from filename\n        title = lesson_key.replace('lesson_', '').replace('_', ' ').title()\n        # Remove leading numbers\n        title = ' '.join(title.split()[1:]) if title.split()[0].isdigit() else title\n        lesson_list.append(f\"{i}. [{title}](lessons/{lesson_key}.md)\")\n    lessons_md = '\\n'.join(lesson_list)",
+        "detail": "src.nodes.publish_node",
+        "documentation": {}
+    },
+    {
+        "label": "research_node",
+        "kind": 2,
+        "importPath": "src.nodes.research_node",
+        "description": "src.nodes.research_node",
+        "peekOfCode": "def research_node(state: AgentState) -> dict:\n    \"\"\"\n    Perform web research using Tavily and synthesize notes using OpenAI.\n    If saved state exists with research notes, skip this step.\n    Args:\n        state: Current agent state\n    Returns:\n        Dictionary with research_sources and raw_notes updates\n    \"\"\"\n    print(\"\\n[Step 2] Conducting web research...\")",
+        "detail": "src.nodes.research_node",
+        "documentation": {}
+    },
+    {
+        "label": "parse_topic",
+        "kind": 2,
+        "importPath": "src.nodes.setup_node",
+        "description": "src.nodes.setup_node",
+        "peekOfCode": "def parse_topic(topic: str) -> tuple[str, str]:\n    \"\"\"\n    Parse topic into main topic and subtopic.\n    Examples:\n        \"AI\" → (\"ai\", \"general\")\n        \"Memory of AI\" → (\"ai\", \"memory\")\n        \"Docker basics\" → (\"docker\", \"basics\")\n        \"AWS SAA\" → (\"aws-saa\", \"general\")\n        \"Containers in Docker\" → (\"docker\", \"containers\")\n    Returns:",
+        "detail": "src.nodes.setup_node",
+        "documentation": {}
+    },
+    {
+        "label": "sanitize_slug",
+        "kind": 2,
+        "importPath": "src.nodes.setup_node",
+        "description": "src.nodes.setup_node",
+        "peekOfCode": "def sanitize_slug(text: str) -> str:\n    \"\"\"Convert text to a valid directory slug.\"\"\"\n    slug = text.lower()\n    slug = slug.replace(' ', '-').replace('_', '-').replace('/', '-')\n    slug = re.sub(r'-+', '-', slug).strip('-')\n    return slug\ndef setup_node(state: AgentState) -> dict:\n    \"\"\"\n    Create output directory and initialize git repository.\n    Creates two-level structure: learn-{main-topic}/{subtopic}/",
+        "detail": "src.nodes.setup_node",
+        "documentation": {}
+    },
+    {
+        "label": "setup_node",
+        "kind": 2,
+        "importPath": "src.nodes.setup_node",
+        "description": "src.nodes.setup_node",
+        "peekOfCode": "def setup_node(state: AgentState) -> dict:\n    \"\"\"\n    Create output directory and initialize git repository.\n    Creates two-level structure: learn-{main-topic}/{subtopic}/\n    Examples:\n        \"AI\" → learn-ai/general/\n        \"Memory of AI\" → learn-ai/memory/\n        \"Docker basics\" → learn-docker/basics/\n    Args:\n        state: Current agent state",
+        "detail": "src.nodes.setup_node",
+        "documentation": {}
+    },
+    {
+        "label": "synthesis_node",
+        "kind": 2,
+        "importPath": "src.nodes.synthesis_node",
+        "description": "src.nodes.synthesis_node",
+        "peekOfCode": "def synthesis_node(state: AgentState) -> dict:\n    \"\"\"\n    Synthesize research into structured knowledge base using Claude.\n    This is a CORE CLAUDE TASK - deep thinking and structuring.\n    If saved state exists with knowledge base, skip this step.\n    Args:\n        state: Current agent state\n    Returns:\n        Dictionary with knowledge_base and lesson_outline updates\n    \"\"\"",
+        "detail": "src.nodes.synthesis_node",
+        "documentation": {}
+    },
+    {
+        "label": "writing_node",
+        "kind": 2,
+        "importPath": "src.nodes.writing_node",
+        "description": "src.nodes.writing_node",
+        "peekOfCode": "def writing_node(state: AgentState) -> dict:\n    \"\"\"\n    Write complete lessons using Claude.\n    This is a CORE CLAUDE TASK - pedagogical writing at the highest quality.\n    Writes each lesson to a file immediately after generation so progress is saved.\n    Skips lessons that already exist on disk.\n    Args:\n        state: Current agent state\n    Returns:\n        Dictionary with lessons update",
+        "detail": "src.nodes.writing_node",
+        "documentation": {}
+    },
+    {
+        "label": "sanitize_filename",
+        "kind": 2,
+        "importPath": "src.nodes.writing_node",
+        "description": "src.nodes.writing_node",
+        "peekOfCode": "def sanitize_filename(title: str) -> str:\n    \"\"\"Convert lesson title to a valid filename.\"\"\"\n    # Replace spaces and special characters\n    filename = title.lower()\n    filename = filename.replace(' ', '_')\n    filename = ''.join(c for c in filename if c.isalnum() or c == '_')\n    return filename[:50]  # Limit length",
+        "detail": "src.nodes.writing_node",
+        "documentation": {}
+    },
+    {
+        "label": "init_repo",
+        "kind": 2,
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "peekOfCode": "def init_repo(repo_path: Path) -> None:\n    \"\"\"\n    Initialize a git repository at the given path.\n    Args:\n        repo_path: Path to the repository directory\n    \"\"\"\n    try:\n        # Initialize git repo\n        subprocess.run(\n            ['git', 'init'],",
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "commit_changes",
+        "kind": 2,
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "peekOfCode": "def commit_changes(repo_path: Path, message: str) -> None:\n    \"\"\"\n    Stage all changes and create a commit.\n    Args:\n        repo_path: Path to the repository directory\n        message: Commit message\n    \"\"\"\n    try:\n        # Add all files\n        subprocess.run(",
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "push_to_remote",
+        "kind": 2,
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "peekOfCode": "def push_to_remote(repo_path: Path, remote_url: str = None) -> None:\n    \"\"\"\n    Push commits to a remote repository.\n    Args:\n        repo_path: Path to the repository directory\n        remote_url: URL of the remote repository (optional)\n    \"\"\"\n    try:\n        # Add remote if URL is provided\n        if remote_url:",
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "get_repo_info",
+        "kind": 2,
+        "importPath": "src.tools.git_operations",
+        "description": "src.tools.git_operations",
+        "peekOfCode": "def get_repo_info(repo_path: Path) -> dict:\n    \"\"\"\n    Get information about the git repository.\n    Args:\n        repo_path: Path to the repository directory\n    Returns:\n        Dictionary with repository information\n    \"\"\"\n    try:\n        # Get current branch",
+        "detail": "src.tools.git_operations",
+        "documentation": {}
+    },
+    {
+        "label": "get_openai_client",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def get_openai_client() -> OpenAI:\n    \"\"\"Get or create the OpenAI client singleton.\"\"\"\n    global _openai_client\n    if _openai_client is None:\n        base_url = Config.get_base_url_for_openai()\n        api_key = Config.get_api_key_for_openai()\n        if base_url:\n            _openai_client = OpenAI(api_key=api_key, base_url=base_url)\n        else:\n            _openai_client = OpenAI(api_key=api_key)",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_anthropic_client",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def get_anthropic_client() -> Anthropic:\n    \"\"\"Get or create the Anthropic client singleton.\"\"\"\n    global _anthropic_client\n    if _anthropic_client is None:\n        api_key = Config.get_api_key_for_claude()\n        _anthropic_client = Anthropic(api_key=api_key)\n    return _anthropic_client\ndef get_claude_via_openai_client() -> OpenAI:\n    \"\"\"\n    Get OpenAI client configured for Claude via GitHub Copilot API.",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_claude_via_openai_client",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def get_claude_via_openai_client() -> OpenAI:\n    \"\"\"\n    Get OpenAI client configured for Claude via GitHub Copilot API.\n    GitHub Copilot API supports Claude models through OpenAI-compatible endpoints.\n    \"\"\"\n    global _claude_via_openai_client\n    if _claude_via_openai_client is None:\n        base_url = Config.get_base_url_for_claude()\n        api_key = Config.get_api_key_for_claude()\n        _claude_via_openai_client = OpenAI(api_key=api_key, base_url=base_url)",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_openai",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def call_openai(system_prompt: str, user_prompt: str, temperature: float = 0.7) -> str:\n    \"\"\"\n    Call OpenAI GPT-4o for planning and structuring tasks.\n    Works with both direct OpenAI API and GitHub Copilot API routing.\n    Args:\n        system_prompt: System message defining the role\n        user_prompt: User message with the task\n        temperature: Sampling temperature (0.0 to 1.0)\n    Returns:\n        The model's response as a string",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_claude",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def call_claude(system_prompt: str, user_prompt: str, temperature: float = 1.0, max_tokens: int = 16000) -> str:\n    \"\"\"\n    Call Claude Sonnet-4 for knowledge synthesis and lecture writing.\n    This is used ONLY for Steps 3 and 4 where deep thinking and\n    pedagogical writing are required.\n    Supports both:\n    - Direct Anthropic API\n    - GitHub Copilot API (via OpenAI-compatible endpoint)\n    Args:\n        system_prompt: System message defining the role",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "extract_lesson_outline",
+        "kind": 2,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "def extract_lesson_outline(synthesis_output: str) -> list[str]:\n    \"\"\"\n    Extract the lesson outline from Claude's synthesis output.\n    The synthesis prompt instructs Claude to include a section like:\n    ## LESSON OUTLINE\n    1. Lesson title 1\n    2. Lesson title 2\n    ...\n    Args:\n        synthesis_output: The full output from the synthesis step",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "_openai_client",
+        "kind": 5,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "_openai_client = None\n_anthropic_client = None\n_claude_via_openai_client = None\ndef get_openai_client() -> OpenAI:\n    \"\"\"Get or create the OpenAI client singleton.\"\"\"\n    global _openai_client\n    if _openai_client is None:\n        base_url = Config.get_base_url_for_openai()\n        api_key = Config.get_api_key_for_openai()\n        if base_url:",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "_anthropic_client",
+        "kind": 5,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "_anthropic_client = None\n_claude_via_openai_client = None\ndef get_openai_client() -> OpenAI:\n    \"\"\"Get or create the OpenAI client singleton.\"\"\"\n    global _openai_client\n    if _openai_client is None:\n        base_url = Config.get_base_url_for_openai()\n        api_key = Config.get_api_key_for_openai()\n        if base_url:\n            _openai_client = OpenAI(api_key=api_key, base_url=base_url)",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "_claude_via_openai_client",
+        "kind": 5,
+        "importPath": "src.tools.llm_client",
+        "description": "src.tools.llm_client",
+        "peekOfCode": "_claude_via_openai_client = None\ndef get_openai_client() -> OpenAI:\n    \"\"\"Get or create the OpenAI client singleton.\"\"\"\n    global _openai_client\n    if _openai_client is None:\n        base_url = Config.get_base_url_for_openai()\n        api_key = Config.get_api_key_for_openai()\n        if base_url:\n            _openai_client = OpenAI(api_key=api_key, base_url=base_url)\n        else:",
+        "detail": "src.tools.llm_client",
+        "documentation": {}
+    },
+    {
+        "label": "save_state",
+        "kind": 2,
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "peekOfCode": "def save_state(repo_path: Path, state: Dict[str, Any]) -> None:\n    \"\"\"\n    Save agent state to a JSON file.\n    Args:\n        repo_path: Path to the repository\n        state: Agent state dictionary\n    \"\"\"\n    state_file = repo_path / \".agent_state.json\"\n    # Create a serializable version of state\n    # Handle both dict and list for lessons",
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "load_state",
+        "kind": 2,
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "peekOfCode": "def load_state(repo_path: Path) -> Dict[str, Any]:\n    \"\"\"\n    Load agent state from a JSON file.\n    Args:\n        repo_path: Path to the repository\n    Returns:\n        Dictionary with saved state, or empty dict if no state exists\n    \"\"\"\n    state_file = repo_path / \".agent_state.json\"\n    if not state_file.exists():",
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "check_resume_capability",
+        "kind": 2,
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "peekOfCode": "def check_resume_capability(repo_path: Path) -> Dict[str, bool]:\n    \"\"\"\n    Check what can be resumed from existing state.\n    Args:\n        repo_path: Path to the repository\n    Returns:\n        Dictionary with flags for what can be resumed:\n        {\n            \"has_state\": bool,\n            \"can_skip_research\": bool,",
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "load_existing_lessons",
+        "kind": 2,
+        "importPath": "src.tools.state_persistence",
+        "description": "src.tools.state_persistence",
+        "peekOfCode": "def load_existing_lessons(repo_path: Path) -> Dict[str, str]:\n    \"\"\"\n    Load existing lesson files from disk.\n    Args:\n        repo_path: Path to the repository\n    Returns:\n        Dictionary mapping lesson keys to content\n    \"\"\"\n    lessons_dir = repo_path / \"lessons\"\n    lessons = {}",
+        "detail": "src.tools.state_persistence",
+        "documentation": {}
+    },
+    {
+        "label": "get_tavily_client",
+        "kind": 2,
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "peekOfCode": "def get_tavily_client() -> TavilyClient:\n    \"\"\"Get or create the Tavily client singleton.\"\"\"\n    global _tavily_client\n    if _tavily_client is None:\n        _tavily_client = TavilyClient(api_key=Config.TAVILY_API_KEY)\n    return _tavily_client\ndef search_topic(topic: str, max_results: int = None) -> dict:\n    \"\"\"\n    Search for information about a topic using Tavily API.\n    Args:",
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "search_topic",
+        "kind": 2,
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "peekOfCode": "def search_topic(topic: str, max_results: int = None) -> dict:\n    \"\"\"\n    Search for information about a topic using Tavily API.\n    Args:\n        topic: The topic to search for\n        max_results: Maximum number of results (default from config)\n    Returns:\n        Dictionary with search results including:\n        - results: List of search result dictionaries\n        - query: The search query used",
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "format_search_results",
+        "kind": 2,
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "peekOfCode": "def format_search_results(search_response: dict) -> str:\n    \"\"\"\n    Format Tavily search results into a readable string.\n    Args:\n        search_response: Response from Tavily API\n    Returns:\n        Formatted string with all search results\n    \"\"\"\n    results = search_response.get('results', [])\n    if not results:",
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "extract_sources",
+        "kind": 2,
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "peekOfCode": "def extract_sources(search_response: dict) -> list[dict[str, str]]:\n    \"\"\"\n    Extract source information from search results.\n    Args:\n        search_response: Response from Tavily API\n    Returns:\n        List of dictionaries with 'title' and 'url'\n    \"\"\"\n    results = search_response.get('results', [])\n    sources = []",
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "_tavily_client",
+        "kind": 5,
+        "importPath": "src.tools.tavily_client",
+        "description": "src.tools.tavily_client",
+        "peekOfCode": "_tavily_client = None\ndef get_tavily_client() -> TavilyClient:\n    \"\"\"Get or create the Tavily client singleton.\"\"\"\n    global _tavily_client\n    if _tavily_client is None:\n        _tavily_client = TavilyClient(api_key=Config.TAVILY_API_KEY)\n    return _tavily_client\ndef search_topic(topic: str, max_results: int = None) -> dict:\n    \"\"\"\n    Search for information about a topic using Tavily API.",
+        "detail": "src.tools.tavily_client",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "class Config:\n    \"\"\"Configuration for the Research & Teaching Agent\"\"\"\n    # ========================================================================\n    # GitHub Copilot API Support\n    # ========================================================================\n    USE_GITHUB_COPILOT = os.getenv(\"USE_GITHUB_COPILOT\", \"false\").lower() == \"true\"\n    GITHUB_COPILOT_TOKEN = os.getenv(\"GITHUB_COPILOT_TOKEN\", \"dummy\")  # Default to \"dummy\" for local proxy\n    COPILOT_BASE_URL = os.getenv(\"COPILOT_BASE_URL\", \"http://localhost:4141\")\n    # ========================================================================\n    # API Keys (Direct API access)",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_agent_graph",
+        "kind": 2,
+        "importPath": "src.graph",
+        "description": "src.graph",
+        "peekOfCode": "def create_agent_graph():\n    \"\"\"\n    Create and compile the LangGraph workflow.\n    Returns:\n        Compiled StateGraph ready for execution\n    \"\"\"\n    # Create workflow with AgentState schema\n    workflow = StateGraph(AgentState)\n    # Add all nodes\n    workflow.add_node(\"setup\", setup_node)",
+        "detail": "src.graph",
+        "documentation": {}
+    },
+    {
+        "label": "run_agent",
+        "kind": 2,
+        "importPath": "src.graph",
+        "description": "src.graph",
+        "peekOfCode": "def run_agent(topic: str, target_audience: str = \"intermediate developers\", repo_dir: str = None) -> AgentState:\n    \"\"\"\n    Run the complete agent pipeline.\n    Args:\n        topic: The topic to create a course about\n        target_audience: Description of the target audience\n        repo_dir: Optional directory containing existing repositories to use\n    Returns:\n        Final agent state with all generated content\n    \"\"\"",
+        "detail": "src.graph",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "kind": 6,
+        "importPath": "src.models",
+        "description": "src.models",
+        "peekOfCode": "class AgentState(TypedDict):\n    \"\"\"\n    State schema for the Research & Teaching Agent.\n    This follows the exact structure defined in CLAUDE.md.\n    \"\"\"\n    # Input\n    topic: str\n    target_audience: str\n    repo_dir: Optional[str]  # Optional: directory containing repositories to use\n    # Step 1: Repo setup",
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "format_synthesis_prompt",
+        "kind": 2,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "def format_synthesis_prompt(topic: str, raw_notes: str) -> tuple[str, str]:\n    \"\"\"Format the knowledge synthesis prompt for Claude.\"\"\"\n    return (\n        SYNTHESIS_SYSTEM_PROMPT,\n        SYNTHESIS_USER_PROMPT_TEMPLATE.format(\n            topic=topic,\n            raw_notes=raw_notes\n        )\n    )\ndef format_lecture_prompt(",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "format_lecture_prompt",
+        "kind": 2,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "def format_lecture_prompt(\n    topic: str,\n    lesson_title: str,\n    target_audience: str,\n    knowledge_base: str\n) -> tuple[str, str]:\n    \"\"\"Format the lecture writing prompt for Claude.\"\"\"\n    return (\n        LECTURE_SYSTEM_PROMPT,\n        LECTURE_USER_PROMPT_TEMPLATE.format(",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "format_research_synthesis_prompt",
+        "kind": 2,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "def format_research_synthesis_prompt(\n    topic: str,\n    target_audience: str,\n    search_results: str\n) -> tuple[str, str]:\n    \"\"\"Format the research synthesis prompt for OpenAI.\"\"\"\n    return (\n        RESEARCH_SYNTHESIS_SYSTEM_PROMPT,\n        RESEARCH_SYNTHESIS_USER_PROMPT_TEMPLATE.format(\n            topic=topic,",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SYNTHESIS_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "SYNTHESIS_SYSTEM_PROMPT = \"\"\"You are a senior educator and systems thinker.\nYour task is to synthesize raw research into structured,\nprogressive, and teachable knowledge.\nFocus on clarity, conceptual hierarchy, and learning flow.\"\"\"\nSYNTHESIS_USER_PROMPT_TEMPLATE = \"\"\"Topic: {topic}\nRaw research notes:\n{raw_notes}\nTasks:\n1. Organize concepts from fundamentals to advanced.\n2. Explain relationships between concepts.",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SYNTHESIS_USER_PROMPT_TEMPLATE",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "SYNTHESIS_USER_PROMPT_TEMPLATE = \"\"\"Topic: {topic}\nRaw research notes:\n{raw_notes}\nTasks:\n1. Organize concepts from fundamentals to advanced.\n2. Explain relationships between concepts.\n3. Identify common misconceptions.\n4. Map concepts to lessons.\nOutput format (Markdown):\n- Concept Map",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "LECTURE_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "LECTURE_SYSTEM_PROMPT = \"\"\"You are an expert technical instructor.\nWrite clear, structured, and pedagogical lessons.\nAssume the reader is intelligent but unfamiliar with the topic.\"\"\"\nLECTURE_USER_PROMPT_TEMPLATE = \"\"\"Course topic: {topic}\nLesson title: {lesson_title}\nTarget audience: {target_audience}\nKnowledge base:\n{knowledge_base}\nWrite a complete lesson with the following structure:\n1. Learning Objectives",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "LECTURE_USER_PROMPT_TEMPLATE",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "LECTURE_USER_PROMPT_TEMPLATE = \"\"\"Course topic: {topic}\nLesson title: {lesson_title}\nTarget audience: {target_audience}\nKnowledge base:\n{knowledge_base}\nWrite a complete lesson with the following structure:\n1. Learning Objectives\n2. Core Theory\n3. Intuition & Examples\n4. Common Pitfalls",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "RESEARCH_SYNTHESIS_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "RESEARCH_SYNTHESIS_SYSTEM_PROMPT = \"\"\"You are a research assistant specializing in extracting and organizing information.\nYour task is to synthesize search results into coherent research notes.\"\"\"\nRESEARCH_SYNTHESIS_USER_PROMPT_TEMPLATE = \"\"\"Topic: {topic}\nTarget audience: {target_audience}\nSearch results:\n{search_results}\nExtract and organize the most important information about this topic.\nFocus on:\n- Key concepts and definitions\n- Important technical details",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "RESEARCH_SYNTHESIS_USER_PROMPT_TEMPLATE",
+        "kind": 5,
+        "importPath": "src.prompts",
+        "description": "src.prompts",
+        "peekOfCode": "RESEARCH_SYNTHESIS_USER_PROMPT_TEMPLATE = \"\"\"Topic: {topic}\nTarget audience: {target_audience}\nSearch results:\n{search_results}\nExtract and organize the most important information about this topic.\nFocus on:\n- Key concepts and definitions\n- Important technical details\n- Common use cases and examples\n- Best practices and patterns",
+        "detail": "src.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Research & Teaching Agent - Generate educational courses automatically\",\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\nExamples:\n  python main.py --topic \"Introduction to LangGraph\"\n  python main.py --topic \"Python Async Programming\" --audience \"intermediate Python developers\"\n  python main.py --topic \"Docker Basics\" --audience \"DevOps beginners\"\n  python main.py --topic \"Git Basics\" --repo-dir ~/my-courses",
+        "detail": "main",
+        "documentation": {}
+    }
+]
