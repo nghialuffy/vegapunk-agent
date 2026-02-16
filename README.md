@@ -170,37 +170,40 @@ python main.py --validate-only
 
 ## Example Output
 
-The agent creates a **two-level directory structure**: `learn-{main-topic}/{subtopic}/`
+The agent creates a single folder for each topic:
 
 ```
 ~/Git/
-├── learn-ai/
-│   ├── general/              # Topic: "AI"
-│   │   ├── lessons/
-│   │   └── README.md
-│   ├── memory/               # Topic: "Memory of AI"
-│   │   ├── lessons/
-│   │   └── README.md
-│   └── transformers/         # Topic: "Transformers in AI"
-│       ├── lessons/
-│       └── README.md
-│
-└── learn-docker/
-    ├── general/              # Topic: "Docker"
-    ├── basics/               # Topic: "Docker basics"
-    └── containers/           # Topic: "Containers in Docker"
+├── ai/                       # Topic: "AI"
+│   ├── lessons/
+│   └── README.md
+├── memory-of-ai/             # Topic: "Memory of AI"
+│   ├── lessons/
+│   └── README.md
+├── transformers-in-ai/       # Topic: "Transformers in AI"
+│   ├── lessons/
+│   └── README.md
+├── docker/                   # Topic: "Docker"
+│   ├── lessons/
+│   └── README.md
+├── docker-basics/            # Topic: "Docker basics"
+│   ├── lessons/
+│   └── README.md
+└── containers-in-docker/     # Topic: "Containers in Docker"
+    ├── lessons/
+    └── README.md
 ```
 
-### Topic Parsing Examples
+### Topic to Directory Examples
 
 | Topic Input | Directory Created |
 |------------|-------------------|
-| "AI" | `learn-ai/general/` |
-| "Memory of AI" | `learn-ai/memory/` |
-| "Docker basics" | `learn-docker/basics/` |
-| "Containers in Docker" | `learn-docker/containers/` |
+| "AI" | `ai/` |
+| "Memory of AI" | `memory-of-ai/` |
+| "Docker basics" | `docker-basics/` |
+| "Containers in Docker" | `containers-in-docker/` |
 
-📖 **See [TWO_LEVEL_STRUCTURE.md](TWO_LEVEL_STRUCTURE.md) for complete directory structure guide.**
+📖 **See [DIRECTORY_STRUCTURE.md](docs/DIRECTORY_STRUCTURE.md) for complete directory structure guide.**
 
 Each lesson includes:
 - Learning Objectives

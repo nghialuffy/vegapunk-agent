@@ -4,10 +4,10 @@ Step 1: Repository and Folder Setup
 Creates the local directory structure and initializes git.
 Can use existing repositories from a specified directory.
 
-Supports two-level structure:
-- "AI" → learn-ai/general/
-- "Memory of AI" → learn-ai/memory/
-- "Docker basics" → learn-docker/basics/
+Creates a single folder based on topic:
+- "AI" → ai/
+- "Memory of AI" → memory-of-ai/
+- "Docker basics" → docker-basics/
 """
 
 from pathlib import Path
@@ -18,64 +18,21 @@ from src.tools.state_persistence import check_resume_capability, load_state, loa
 import re
 
 
-def parse_topic(topic: str) -> tuple[str, str]:
+def create_topic_slug(topic: str) -> str:
     """
-    Parse topic into main topic and subtopic.
+    Convert topic into a sanitized directory slug.
 
     Examples:
-        "AI" → ("ai", "general")
-        "Memory of AI" → ("ai", "memory")
-        "Docker basics" → ("docker", "basics")
-        "AWS SAA" → ("aws-saa", "general")
-        "Containers in Docker" → ("docker", "containers")
+        "AI" → "ai"
+        "Memory of AI" → "memory-of-ai"
+        "Docker basics" → "docker-basics"
+        "AWS SAA" → "aws-saa"
+        "Containers in Docker" → "containers-in-docker"
 
     Returns:
-        (main_topic, subtopic)
+        Sanitized slug for the topic
     """
-    topic_lower = topic.lower()
-
-    # Patterns to detect main topic
-    # Look for "X of Y" or "X in Y" patterns
-    of_pattern = r'^(.+?)\s+of\s+(.+)$'
-    in_pattern = r'^(.+?)\s+in\s+(.+)$'
-
-    match = re.match(of_pattern, topic_lower)
-    if match:
-        subtopic = match.group(1).strip()
-        main_topic = match.group(2).strip()
-        return (sanitize_slug(main_topic), sanitize_slug(subtopic))
-
-    match = re.match(in_pattern, topic_lower)
-    if match:
-        subtopic = match.group(1).strip()
-        main_topic = match.group(2).strip()
-        return (sanitize_slug(main_topic), sanitize_slug(subtopic))
-
-    # Check if topic has multiple words - first word might be main topic
-    # e.g., "Docker basics" → ("docker", "basics")
-    words = topic_lower.split()
-    if len(words) >= 2:
-        # Common main topics (can be expanded)
-        known_topics = {
-            'ai', 'docker', 'kubernetes', 'k8s', 'aws', 'python', 'go', 'rust',
-            'devops', 'security', 'algorithm', 'design', 'refactoring', 'pytest',
-            'toeic', 'htb', 'prompt'
-        }
-
-        # Check if first word is a known topic
-        first_word = words[0]
-        if first_word in known_topics:
-            main_topic = first_word
-            subtopic = ' '.join(words[1:])
-            return (sanitize_slug(main_topic), sanitize_slug(subtopic))
-
-        # Check for compound topics like "AWS SAA"
-        if len(words) == 2 and words[0] in known_topics:
-            # This is likely a single topic, not main+sub
-            return (sanitize_slug(topic_lower), "general")
-
-    # Single word or unknown pattern - treat as main topic with "general" subtopic
-    return (sanitize_slug(topic_lower), "general")
+    return sanitize_slug(topic.lower())
 
 
 def sanitize_slug(text: str) -> str:
@@ -90,12 +47,12 @@ def setup_node(state: AgentState) -> dict:
     """
     Create output directory and initialize git repository.
 
-    Creates two-level structure: learn-{main-topic}/{subtopic}/
+    Creates single-level structure based on topic slug.
 
     Examples:
-        "AI" → learn-ai/general/
-        "Memory of AI" → learn-ai/memory/
-        "Docker basics" → learn-docker/basics/
+        "AI" → ai/
+        "Memory of AI" → memory-of-ai/
+        "Docker basics" → docker-basics/
 
     Args:
         state: Current agent state
@@ -108,13 +65,11 @@ def setup_node(state: AgentState) -> dict:
     topic = state['topic']
     repo_dir = state.get('repo_dir')
 
-    # Parse topic into main topic and subtopic
-    main_topic, subtopic = parse_topic(topic)
-    main_dir = f"learn-{main_topic}"
+    # Create topic slug for directory name
+    topic_slug = create_topic_slug(topic)
 
-    print(f"  → Parsed topic: '{topic}'")
-    print(f"    Main topic: {main_topic}")
-    print(f"    Subtopic: {subtopic}")
+    print(f"  → Topic: '{topic}'")
+    print(f"    Directory: {topic_slug}")
 
     if repo_dir:
         # Use existing repository directory
@@ -125,29 +80,18 @@ def setup_node(state: AgentState) -> dict:
 
         print(f"  → Using repository directory: {base_path}")
 
-        # Create learn-{main-topic}/{subtopic} structure
-        main_path = base_path / main_dir
-        repo_path = main_path / subtopic
+        # Create topic directory
+        repo_path = base_path / topic_slug
 
-        # Create main topic directory if it doesn't exist
-        if not main_path.exists():
-            main_path.mkdir(parents=True, exist_ok=True)
-            print(f"  ✓ Created main directory: {main_path}")
-        else:
-            print(f"  ✓ Using existing main directory: {main_path}")
-
-        # Create subtopic directory
         if repo_path.exists():
-            print(f"  ✓ Found existing subtopic: {repo_path}")
+            print(f"  ✓ Found existing directory: {repo_path}")
         else:
             repo_path.mkdir(parents=True, exist_ok=True)
-            print(f"  ✓ Created subtopic directory: {repo_path}")
+            print(f"  ✓ Created directory: {repo_path}")
     else:
-        # Use default output directory with same structure
-        main_path = Config.OUTPUT_DIR / main_dir
-        repo_path = main_path / subtopic
+        # Use default output directory
+        repo_path = Config.OUTPUT_DIR / topic_slug
 
-        main_path.mkdir(parents=True, exist_ok=True)
         repo_path.mkdir(parents=True, exist_ok=True)
         print(f"  ✓ Created directory: {repo_path}")
 
@@ -168,8 +112,7 @@ def setup_node(state: AgentState) -> dict:
     # Get repository information
     repo_info = get_repo_info(repo_path)
     repo_info['lessons_dir'] = str(repo_path / "lessons")
-    repo_info['main_topic'] = main_topic
-    repo_info['subtopic'] = subtopic
+    repo_info['topic_slug'] = topic_slug
 
     # Check if we can resume from existing state
     resume_info = check_resume_capability(repo_path)
