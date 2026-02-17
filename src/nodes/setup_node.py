@@ -1,19 +1,21 @@
 """
 Step 1: Repository and Folder Setup
 
-Creates the local directory structure and initializes git.
+Creates the local directory structure. Assumes git repository is already initialized.
 Can use existing repositories from a specified directory.
 
 Creates a single folder based on topic:
 - "AI" → ai/
 - "Memory of AI" → memory-of-ai/
 - "Docker basics" → docker-basics/
+
+Note: Does NOT run 'git init'. If you need git, run 'git init' in the target directory first.
 """
 
 from pathlib import Path
 from src.models import AgentState
 from src.config import Config
-from src.tools.git_operations import init_repo, get_repo_info
+from src.tools.git_operations import get_repo_info
 from src.tools.state_persistence import check_resume_capability, load_state, load_existing_lessons
 import re
 
@@ -45,9 +47,10 @@ def sanitize_slug(text: str) -> str:
 
 def setup_node(state: AgentState) -> dict:
     """
-    Create output directory and initialize git repository.
+    Create output directory and prepare for git operations.
 
     Creates single-level structure based on topic slug.
+    Does NOT run 'git init' - assumes repository is already initialized.
 
     Examples:
         "AI" → ai/
@@ -99,13 +102,10 @@ def setup_node(state: AgentState) -> dict:
     (repo_path / "lessons").mkdir(exist_ok=True)
     print(f"  ✓ Created lessons directory")
 
-    # Initialize git repository if not already initialized
+    # Check if we're in a git repository
     if not (repo_path / ".git").exists():
-        try:
-            init_repo(repo_path)
-            print(f"  ✓ Initialized git repository")
-        except Exception as e:
-            print(f"  ⚠ Git init warning: {e}")
+        print(f"  ⚠ Warning: Not in a git repository. Commits will be skipped.")
+        print(f"    To use git, run 'git init' in: {repo_path}")
     else:
         print(f"  ✓ Using existing git repository")
 

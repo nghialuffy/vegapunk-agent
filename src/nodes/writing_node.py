@@ -13,6 +13,8 @@ from src.models import AgentState
 from src.tools.llm_client import call_claude
 from src.prompts import format_lecture_prompt
 from src.tools.state_persistence import load_existing_lessons, save_state
+from src.tools.token_utils import smart_truncate_for_prompt
+from src.config import Config
 
 
 def writing_node(state: AgentState) -> dict:
@@ -67,12 +69,19 @@ def writing_node(state: AgentState) -> dict:
         # Write new lesson
         print(f"  → Writing lesson {i}/{len(lesson_outline)}: {lesson_title}")
 
+        # Truncate knowledge base if needed for this lesson
+        truncated_kb, was_truncated = smart_truncate_for_prompt(
+            knowledge_base,
+            Config.MAX_TOKENS_FOR_KNOWLEDGE_BASE,
+            f"Knowledge base for lesson {i}"
+        )
+
         # Call Claude for each lesson
         system_prompt, user_prompt = format_lecture_prompt(
             topic=topic,
             lesson_title=lesson_title,
             target_audience=target_audience,
-            knowledge_base=knowledge_base
+            knowledge_base=truncated_kb
         )
 
         lesson_content = call_claude(

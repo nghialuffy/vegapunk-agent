@@ -10,6 +10,8 @@ from src.tools.tavily_client import search_topic, format_search_results, extract
 from src.tools.llm_client import call_openai
 from src.prompts import format_research_synthesis_prompt
 from src.tools.state_persistence import save_state
+from src.tools.token_utils import smart_truncate_for_prompt
+from src.config import Config
 from pathlib import Path
 
 
@@ -56,6 +58,13 @@ def research_node(state: AgentState) -> dict:
 
     # Format search results
     formatted_results = format_search_results(search_response)
+
+    # Truncate if needed to fit token limits
+    formatted_results, was_truncated = smart_truncate_for_prompt(
+        formatted_results,
+        Config.MAX_TOKENS_FOR_RAW_NOTES,
+        "Search results"
+    )
 
     # Synthesize research notes using OpenAI
     print(f"  → Synthesizing research notes with OpenAI...")

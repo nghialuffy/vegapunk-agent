@@ -49,6 +49,15 @@ class Config:
     TAVILY_MAX_RESULTS = 5
     TAVILY_SEARCH_DEPTH = "advanced"
 
+    # ========================================================================
+    # Token limits for Claude
+    # ========================================================================
+    # Claude's max prompt tokens: 64000
+    # We reserve space for: system prompt (~200) + user prompt template (~300)
+    # So max for dynamic content (raw_notes/knowledge_base): ~40000 tokens
+    MAX_TOKENS_FOR_KNOWLEDGE_BASE = 40000  # Safe limit for knowledge_base in prompts
+    MAX_TOKENS_FOR_RAW_NOTES = 40000  # Safe limit for raw_notes in prompts
+
     @classmethod
     def validate(cls):
         """Validate that required API keys are set"""

@@ -10,6 +10,8 @@ from src.models import AgentState
 from src.tools.llm_client import call_claude, extract_lesson_outline
 from src.prompts import format_synthesis_prompt
 from src.tools.state_persistence import save_state
+from src.tools.token_utils import smart_truncate_for_prompt
+from src.config import Config
 from pathlib import Path
 
 
@@ -54,9 +56,17 @@ def synthesis_node(state: AgentState) -> dict:
 
     # Perform new synthesis
     print(f"  → Calling Claude Sonnet-4 for synthesis...")
+
+    # Truncate raw notes if needed
+    truncated_notes, was_truncated = smart_truncate_for_prompt(
+        raw_notes,
+        Config.MAX_TOKENS_FOR_RAW_NOTES,
+        "Raw research notes"
+    )
+
     system_prompt, user_prompt = format_synthesis_prompt(
         topic=topic,
-        raw_notes=raw_notes
+        raw_notes=truncated_notes
     )
 
     knowledge_base = call_claude(
